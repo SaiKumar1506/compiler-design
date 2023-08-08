@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+int iskeyword(char buffer[]){
+
+char keyword[32][10]=("main","int","printf");
+int i,flag=0;
+for(i=0;i<32;++i){
+	if(strcmp(keywors[i],buffer==0)){
+		flag=1;
+		break;
+	}
+ }
+ return flag;
+}
+  int main() {
+  	char ch,buffer[15],operators[]="+-*/%=";
+  	FILE *fp;
+  	int i.j=0;
+  	fp=fopen("sai.txt","r");
+  	if(fp==NULL){
+  		printf("error while opening the file/n");
+  		exit(0);
+	  }
+	  while(ch=fgetc(fp))
+  }
