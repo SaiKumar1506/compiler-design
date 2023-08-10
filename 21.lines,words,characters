@@ -1,4 +1,4 @@
-Input Source Program: (sample.c)
+Input Source Program: (lines.c)
  #include <stdio.h>
  int main() 
  {    
